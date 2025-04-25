@@ -7,7 +7,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "terraform-leo"
+    bucket         = "dhruv-fisco"
     key            = "terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
