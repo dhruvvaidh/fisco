@@ -60,11 +60,11 @@ variable "aws_account_id" {
   type        = string
 }
 
-variable "openai_api_key" {
-  description = "OpenAI API key"
-  type        = string
-  sensitive   = true
-}
+#variable "openai_api_key" {
+#  description = "OpenAI API key"
+#  type        = string
+#  sensitive   = true
+#}
 
 # variable "lex_role_arn" {
 #   description = "IAM Role ARN used by Lex"
