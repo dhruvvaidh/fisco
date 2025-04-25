@@ -91,6 +91,7 @@ resource "aws_lambda_function" "query_lex_handler" {
   variables = {
     LEX_BOT_ID       = aws_lexv2models_bot.finance_assistant.id
     LEX_BOT_ALIAS_ID = data.external.lex_alias_id.result.lex_bot_alias_id
+    OPENAI_API_KEY = var.openai_api_key
   }
   }
 

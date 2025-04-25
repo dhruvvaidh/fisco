@@ -2,7 +2,7 @@
 
 aws_region = "us-east-1"
 
-repo_url = "https://github.com/leo111223/fisco.git"
+repo_url = "https://github.com/dhruvvaidh/fisco"
 
 app_name = "FiscAI"
 #branch_name = "amplify_branch"
@@ -26,4 +26,4 @@ environment = "test-fiscai"
 # PLAID_CLIENT_ID = "679dd136d378b10023942d78"  # Replace with your actual client ID
 # PLAID_SECRET = "959c6a0ea2fd1deb626d707ca00d4f"        # Replace with your actual secret
 
-aws_account_id = 864981748263
+aws_account_id = 971422697727
